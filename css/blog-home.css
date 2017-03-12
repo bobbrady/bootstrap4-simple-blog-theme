@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #f0ede9;
+}
+
+.blog-title {
+    padding: 0.5em 0;
+    margin-bottom: 0;
+}
+
+.title-container {
+    background-color: #fff;
+}
+
+.content-container {
+    margin-top: 2.0em;
+    background-color: #fff;
+}
+
+.nav-container {
+    padding: 0;
+    background-color: #33bcf2;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.sidebar {
+    margin-top: 1em;
+    padding-top: 1em;
+    background-color: #f0ede9;
+    height: 100%;
+}
+
+.footer-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*  Social Icons  */
+.social {
+    overflow: auto;
+}
+
+.social li {
+    list-style-type: none;
+    float: left;
+}
+
+.social li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+
+.social .fa-facebook {
+    background: #3b5998
+}
+
+.social .fa-linkedin {
+    background: #007bb6
+}
+
+.social .fa-twitter {
+    background: #00aced
+}
+
+.social li a i:hover {
+    opacity: .7;
+}
